@@ -1,17 +1,27 @@
+/* 
+    Colors:
+    Dark Green: #1A3B05
+    Darker Tan: #8C592C
+    Lighter Tan: #C49050
+
+*/
+
 * {
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 /* ---------- Temporary styles for structural html -------------- */
-* {
-    padding: 0.5rem;
+section {
     border: 1px solid rgb(240, 240, 240)
 }
 
-body {border: none;}
-html {border: none;}
+body {
+    font-family: 'Catamaran', sans-serif;
+    color:#1A3B05;
+}
 
 /* ---------------- Image Styles ---------------- */
 .bg-image {
@@ -21,10 +31,59 @@ html {border: none;}
 }
 
 /* Universal Styles and Utility Classes */
-.padded     {padding: 5%;}
-.padded-sm  {padding: 1rem;}
+.padded         { padding: 5%; }
+.padded-sm      { padding: 1rem; }
 
 .bg-dark{
     background-color: #1A3B05;
     color: white;
+}
+
+.tall-80         { min-height: 80vh; }
+.tall-90         { min-height: 90vh; }
+.tall-100       { min-height: 100vh; }
+
+/* ------------------------------- Typography Styles -------------------------- */
+
+.featured-text-dark        { color: #8C592C; }
+.featured-text-light       { color: #C49050; }
+
+.font-weight-light       { font-weight:200;}
+.font-weight-normal      { font-weight: 400;}
+.font-weight-bold        { font-weight: 500;}
+.font-weight-extra-bold  { font-weight: 800;}
+
+.text-left       { text-align: left; }
+.text-center     { text-align: center; }
+.text-right      { text-align: right; }
+
+h2{
+    font-size: 2.5rem;
+}
+
+p{
+    font-weight: 200;
+}
+
+/* ------------------------------- Header Styles ---------------------------- */
+
+header {
+    text-transform: lowercase;
+    background-image: url("/images/the-sleep-co-5.jpg");
+    background-size: cover;
+    background-position: 30% 40%;
+    
+    
+
+}
+
+header h3 {
+    font-size: 6rem;
+    line-height: 1;
+
+    
+}
+
+header h1 {
+    margin-bottom: 20rem;
 }
