@@ -4,19 +4,103 @@
 <!-- This is the head, where all external resources and metadata goes -->
 <head>
     <title>Peekaboo!</title>
-<!-- This is our grid stylesheet -->
+<!-- This is our grid stylesheet (gridlex) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
 <!-- This is our google fonts -->
+
+<!-- This is our font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 <!-- This is our CSS stylesheet, it always goes LAST -->
 <link rel="stylesheet" href="/style.css">
 
 </head>
 
-<!-- This is the body -->
+<!---------------------------- This is the body ---------------------------->
 <body>
-<h1>Hello World</h1>
+    <!---------------------------------- Header Banner ------------------------------->
+    <header class="padded grid">
+        <div class="col-12-middle">
+            <h3>Sleep like a baby</h3>
+            <h1>The ultimate matress solution</h1>
+        </div>
+    </header>
 
+    <!------------------------------------ Gallery Section --------------------------->
+    <section class="grid">
+        <div class="padded col-6">
+            <h2>Built to last a lifetime</h2>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias itaque enim quo officia est fuga repellat sint eveniet eos ratione, minima expedita quaerat fugit veniam quasi tempore earum ab minus?</p>
+        </div>
+        <div class="bg-image col-6">
+            <!-- background image bed -->
+        </div>
+        <div class="bg-image col-6">
+            <!-- background image bed -->
+        </div>
+        <div class="padded col-6">
+            <h2>So soft you'll melt</h2>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum excepturi, ut temporibus eveniet quod nesciunt esse velit expedita quaerat architecto ducimus sint fugiat maxime sunt itaque nobis ab aliquam ad.</p>
+        </div>
+    </section>
+
+    <!------------------------------------ Features Icon Grid --------------------------->
+<section class="padded grid bg-dark">
+    <div class="padded-sm col-12">
+        <h2>Features you'll love</h2>
+    </div>
+    <div class="padded-sm col-3">
+        <i class="fa-solid fa-cloud"></i>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione a ducimus soluta laboriosam ea sed iure, nam ipsam, quam tempora aliquid vel maxime error eligendi consectetur ullam quas pariatur voluptatum!</p>
+    </div>
+    <div class="padded-sm col-3">
+        <i class="fa-solid fa-bed"></i>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit cupiditate quasi magni! Doloremque necessitatibus enim unde voluptates, quos possimus quae eaque impedit perspiciatis aspernatur animi praesentium maiores ipsam temporibus eligendi?</p>
+    </div>
+    <div class="padded-sm col-3">
+        <i class="fa-solid fa-moon"></i>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit id dolorum placeat, in sint incidunt commodi numquam magni laudantium autem corporis, impedit ad qui, totam quis soluta dignissimos suscipit consequatur?</p>
+    </div>
+    <div class="padded-sm col-3">
+        <i class="fa-solid fa-clock"></i>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure magni numquam dolorem. Dolor culpa error tenetur doloribus numquam aut illo ullam dolorem nulla, omnis optio placeat voluptatum quibusdam, ad officiis.</p>
+    </div>
+</section>
+
+ <!------------------------------------ Banner --------------------------->
+<section class="padded">
+    <h3> Never underestimate the power of a good night's sleep</h3>
+</section>
+
+ <!------------------------------------ Testimonial Section --------------------------->
+<section class="padded grid">
+  <div class="col-1">
+    <span>"</span>
+  </div> 
+  <div class="col-10">
+    <p> I really love this matress, it's the best sleep I've ever had! I want one for every member of my family!</p>
+    <p> - a very happy customer</p>
+  </div>
+  <div class="col-1">
+    <span>"</span>
+  </div> 
+</section>
+
+<!------------------------------------ Footer ------------------------------------>
+<footer class="padded grid-spaceBetween bg-dark">
+    <div class="col-4">
+        <h2> Let's Connect</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rem voluptas dolorem explicabo quod nemo deleniti quisquam porro numquam! Tempora nobis vitae accusamus, culpa impedit eius tenetur reiciendis atque maiores!</p>
+    </div>
+    <div class="col-6">
+        <p> Call: 055 555 5555</p>
+        <p> Email: info@thesleepco.com</p>
+        <p> Store: 55 Main St, Chicago</p>
+        <p> Instagram: @thesleepco</p>
+    </div>
+</footer>
 
 </body>
 
