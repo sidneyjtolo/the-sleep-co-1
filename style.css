@@ -39,6 +39,9 @@ body {
     color: white;
 }
 
+.tall-50         { min-height: 50vh; }
+.tall-60         { min-height: 60vh; }
+.tall-70         { min-height: 70vh; }
 .tall-80         { min-height: 80vh; }
 .tall-90         { min-height: 90vh; }
 .tall-100       { min-height: 100vh; }
@@ -47,6 +50,25 @@ body {
 
 .featured-text-dark        { color: #8C592C; }
 .featured-text-light       { color: #C49050; }
+
+.small-text                { font-size: 1rem; }
+.medium-text                { 
+    font-size: 2.2rem; 
+    line-height: 1.1;
+}
+.big-text                  { font-size: 4rem; }
+
+.subtitle {
+    font-size: 1.2rem;
+    color: rgb(120, 150, 120)
+}
+
+.quote-icon {
+    font-size: 6rem;
+    display: inline-block;
+    color: rgb(120, 150, 120);
+    line-height: 1;
+}
 
 .font-weight-light       { font-weight:200;}
 .font-weight-normal      { font-weight: 400;}
@@ -59,10 +81,22 @@ body {
 
 h2{
     font-size: 2.5rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+h3{
+    line-height: 1;
 }
 
 p{
     font-weight: 200;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0; 
 }
 
 /* ------------------------------- Header Styles ---------------------------- */
@@ -86,4 +120,28 @@ header h3 {
 
 header h1 {
     margin-bottom: 20rem;
+}
+
+/* --------------- Background Images ----------------- */
+
+.bg-mirror {
+    background-image: url('/images/the-sleep-co-2.jpg');
+    background-position: 50% 50%;
+}
+.bg-jungle-bed {
+    background-image: url('/images/the-sleep-co-6.jpg');
+}
+
+.bg-time {
+    background-image: url('/images/the-sleep-co-4.jpg');
+    background-position: 50% 50%;
+}
+
+/* ----------------------- Icong Grid------------------ */
+
+.fas {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
 }
