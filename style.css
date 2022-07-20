@@ -147,6 +147,16 @@ header h1 {
     background-position: 50% 50%;
 }
 
+.bg-room {
+    background-image: url('/images/the-sleep-co-7.jpg');
+    background-position: 50% 75%;
+}
+
+.bg-couch {
+    background-image: url('/images/the-sleep-co-3.jpg');
+    background-position: 50% 40%;
+}
+
 /* ----------------------- Icong Grid------------------ */
 
 .fas {
