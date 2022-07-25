@@ -134,27 +134,86 @@ header h1 {
 
 /* --------------- Background Images ----------------- */
 
-.bg-mirror {
+.bg-cat {
+    background-image: url('/images/the-sleep-co-12.jpg');
+    background-position: 50% 50%;
+}
+.bg-sheets {
     background-image: url('/images/the-sleep-co-2.jpg');
-    background-position: 50% 50%;
-}
-.bg-jungle-bed {
-    background-image: url('/images/the-sleep-co-6.jpg');
 }
 
-.bg-time {
+.bg-leather-headboard {
+    background-image: url('/images/the-sleep-co-3.jpg');
+    background-position: 50% 50%;
+}
+
+.bg-bed-book {
     background-image: url('/images/the-sleep-co-4.jpg');
-    background-position: 50% 50%;
-}
-
-.bg-room {
-    background-image: url('/images/the-sleep-co-7.jpg');
     background-position: 50% 75%;
 }
 
-.bg-couch {
-    background-image: url('/images/the-sleep-co-3.jpg');
+.bg-bed-lavender {
+    background-image: url('/images/the-sleep-co-5.jpg');
     background-position: 50% 40%;
+}
+
+.bg-bed-tea-pink-book {
+    background-image: url('/images/the-sleep-co-6.jpg');
+    background-position: 50% 50%;
+}
+.bg-bed-foot {
+    background-image: url('/images/the-sleep-co-7.jpg');
+}
+
+.bg-rust-sheets {
+    background-image: url('/images/the-sleep-co-8.jpg');
+    background-position: 50% 50%;
+}
+
+.bg-grey-cat {
+    background-image: url('/images/the-sleep-co-9.jpg');
+    background-position: 50% 75%;
+}
+
+.bg-coffee-book {
+    background-image: url('/images/the-sleep-co-10.jpg');
+    background-position: 50% 40%;
+}
+
+.bg-face {
+    background-image: url('/images/the-sleep-co-11.jpg');
+    background-position: 50% 50%;
+}
+.bg-pink-feet {
+    background-image: url('/images/the-sleep-co-12.jpg');
+}
+
+.bg-dog {
+    background-image: url('/images/the-sleep-co-13.jpg');
+    background-position: 50% 50%;
+}
+
+.bg-pillows {
+    background-image: url('/images/the-sleep-co-14.jpg');
+    background-position: 50% 75%;
+}
+
+.bg-tiny-dog {
+    background-image: url('/images/the-sleep-co-15.jpg');
+    background-position: 50% 40%;
+}
+
+.bg-yellow-pillow {
+    background-image: url('/images/the-sleep-co-116.jpg');
+    background-position: 50% 50%;
+}
+.bg-sheets-2 {
+    background-image: url('/images/the-sleep-co-17.jpg');
+}
+
+.bg-sheets-3 {
+    background-image: url('/images/the-sleep-co-18.jpg');
+    background-position: 50% 50%;
 }
 
 /* ----------------------- Icong Grid------------------ */
