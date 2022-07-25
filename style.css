@@ -1,8 +1,14 @@
 /* 
     Colors:
-    Dark Green: #1A3B05
-    Darker Tan: #8C592C
-    Lighter Tan: #C49050
+    Dark Lavender:      #383e59
+    Light Lavender:     #565f88
+    Lightest Lavender:  #7f88af
+    Dark Grey:          #2a2d2f   
+    Lighter Grey:       #42474a
+    Lightest Grey:      #a3a9ad
+    Dark Blue/Green:    #384f59 
+    Light Blue:         #8aa8b5
+
 
 */
 
@@ -27,7 +33,7 @@
 
 body {
     font-family: 'Catamaran', sans-serif;
-    color:#1A3B05;
+    color: #2a2d2f;
 }
 
 .padded         { padding: 5%; }
@@ -35,7 +41,7 @@ body {
 .padded-lg      { padding: 10%; }
 
 .bg-dark{
-    background-color: #1A3B05;
+    background-color: #383e59;
     color: white;
 }
 
@@ -44,12 +50,16 @@ body {
 .tall-70         { min-height: 70vh; }
 .tall-80         { min-height: 80vh; }
 .tall-90         { min-height: 90vh; }
-.tall-100       { min-height: 100vh; }
+.tall-100        { min-height: 100vh; }
 
 /* ------------------------------- Typography Styles -------------------------- */
 
-.featured-text-dark        { color: #8C592C; }
-.featured-text-light       { color: #C49050; }
+.featured-text-lavender    { color: #383e59; }
+.featured-text-l-lavender  { color: #565f88; }
+.featured-text-blue-green  { color: #384f59; }
+.featured-text-l-b-g       { color: #8aa8b5; }
+.white-text                { color: white;   }
+.l-grey-text               { color: #42474a; }
 
 .small-text                { font-size: 1rem; }
 .medium-text                { 
@@ -60,13 +70,13 @@ body {
 
 .subtitle {
     font-size: 1.2rem;
-    color: rgb(120, 150, 120)
+    color: #384f59;
 }
 
 .quote-icon {
     font-size: 6rem;
     display: inline-block;
-    color: rgb(120, 150, 120);
+    color: #7f88af;
     line-height: 1;
 }
 
@@ -115,21 +125,16 @@ header {
     text-transform: lowercase;
     background-image: url("/images/the-sleep-co-5.jpg");
     background-size: cover;
-    background-position: 30% 40%;
-    
-    
-
+    background-position: 15% 85%;
 }
 
 header h3 {
     font-size: 6rem;
     line-height: 1;
-
-    
 }
 
 header h1 {
-    margin-bottom: 20rem;
+    margin-bottom: 0;
 }
 
 /* --------------- Background Images ----------------- */
