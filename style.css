@@ -111,10 +111,7 @@ p, ul {
     margin: 2px;
   }
 
-.font-weight-light       { font-weight:200;  }
-.font-weight-normal      { font-weight: 400; }
-.font-weight-bold        { font-weight: 500; }
-.font-weight-extra-bold  { font-weight: 800; }
+
 
 /* this makes sure that the last element in any container doesn't have margin-bottom */
 h2:last-child,
@@ -155,7 +152,6 @@ a:hover{
 .bg-image {
     background-image: url(/images/the-sleep-co-2.jpg);
     background-size: cover;
-    min-height: 10rem;
 }
 
 .landscape { padding-bottom: 65%;  }
@@ -337,9 +333,9 @@ textarea:focus {
 
 @media (max-width: 64em) {
 
-    body {
+    /* body {
         border: 2px solid green;
-    }
+    } */
 
   html { font-size: 14px;   }
   p    { font-size: 1.1rem; }
@@ -360,9 +356,9 @@ textarea:focus {
 
 @media (max-width: 48em) {
 
-    body {
+    /* body {
         border: 2px solid blue;
-    }
+    } */
 
     .show-sm { display: block; }
     .hide-sm { display: none;  }
@@ -418,9 +414,9 @@ textarea:focus {
   
   @media (max-width: 36em) {
 
-    body {
+    /* body {
         border: 2px solid lightblue;
-    }
+    } */
 
     .show-xs { display: block; }
     .hide-xs { display: none;  }
