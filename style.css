@@ -272,11 +272,19 @@ header h1 {
     background-position: 50% 50%;
 }
 
-/* ----------------------- Icong Grid------------------ */
+/* ----------------------- Icon Grid------------------ */
 
 .fas {
     display: block;
     text-align: center;
     margin-bottom: 2rem;
     font-size: 3rem;
+}
+
+/* ------------------------ Buttons & Forms ---------------------- */
+
+input,
+textarea {
+    width: 100%;
+    display: block;
 }
