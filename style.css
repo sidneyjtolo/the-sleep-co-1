@@ -29,6 +29,10 @@
     min-height: 10rem;
 }
 
+.landscape { padding-bottom: 65%;  }
+.portrait  { padding-bottom: 125%; }
+.square    { padding-bottom: 100%; }
+
 /* Universal Styles and Utility Classes */
 
 body {
@@ -36,20 +40,35 @@ body {
     color: #2a2d2f;
 }
 
-.padded         { padding: 5%; }
-.padded-sm      { padding: 1rem; }
-.padded-lg      { padding: 10%; }
+.padded         {  padding: 5%;      }
+.padded-lg      {  padding: 10%;     }
+.padded-05      {  padding: 0.5rem;  }
+.padded-1       {  padding: 1rem;    }
+.padded-2       {  padding: 2rem;    }
 
 .bg-dark{
     background-color: #383e59;
     color: white;
 }
 
-.tall-50         { min-height: 50vh; }
-.tall-60         { min-height: 60vh; }
-.tall-70         { min-height: 70vh; }
-.tall-80         { min-height: 80vh; }
-.tall-90         { min-height: 90vh; }
+.bg-light{
+    background-color: #8aa8b5;
+    color: white;
+}
+
+.padding-l-0  {  padding-left: 0;         }
+.padding-r-0  {  padding-right: 0;        }
+
+.padding-b-2 {  padding-bottom: 2rem;  }
+.padding-t-2 {  padding-top: 2rem;     }
+
+.capped-width { max-width: 1100px; margin: auto; }
+
+.tall-50         { min-height: 50vh;  }
+.tall-60         { min-height: 60vh;  }
+.tall-70         { min-height: 70vh;  }
+.tall-80         { min-height: 80vh;  }
+.tall-90         { min-height: 90vh;  }
 .tall-100        { min-height: 100vh; }
 
 /* ------------------------------- Typography Styles -------------------------- */
@@ -60,6 +79,29 @@ body {
 .featured-text-l-b-g       { color: #8aa8b5; }
 .white-text                { color: white;   }
 .l-grey-text               { color: #42474a; }
+
+.left     {  text-align: left;     }
+.right    {  text-align: right;    }
+.center   {  text-align: center;   }
+
+.font-weight-light       { font-weight: 200;}
+.font-weight-normal      { font-weight: 400;}
+.font-weight-bold        { font-weight: 500;}
+.font-weight-extra-bold  { font-weight: 800;}
+
+h2, h3, h4, h5, h6 {
+    line-height: 1;
+    margin-bottom: 0.8rem;
+}
+
+h2  { font-size: 2.2rem;  }
+h3  { font-size: 1.8rem;  }
+h4  { font-size: 1.4rem;  }
+p   { font-size: 1rem;    }
+
+p, ul {
+     margin-bottom: 0.8rem;
+}
 
 .small-text                { font-size: 1rem; }
 .medium-text                { 
@@ -85,10 +127,6 @@ body {
 .font-weight-bold        { font-weight: 500;}
 .font-weight-extra-bold  { font-weight: 800;}
 
-.text-left       { text-align: left; }
-.text-center     { text-align: center; }
-.text-right      { text-align: right; }
-
 h2{
     font-size: 2.5rem;
     line-height: 1.1;
@@ -105,8 +143,21 @@ p{
     margin-bottom: 1rem;
 }
 
+/* this makes sure that the last element in any container doesn't have margin-bottom */
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
 p:last-child {
-    margin-bottom: 0; 
+margin-bottom:0;
+}
+
+hr { /* this is a line element */
+border: none;
+border-bottom: 3px solid;
+width: 4rem;
+margin-bottom: 1rem;
 }
 
 a{
@@ -116,7 +167,7 @@ a{
 }
 
 a:hover{
-    color:#C49050;
+    color:#7f88af;
 }
 
 /* ------------------------------- Header Styles ---------------------------- */
