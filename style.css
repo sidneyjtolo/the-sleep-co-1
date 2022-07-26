@@ -22,17 +22,6 @@
 /* ---------- Temporary styles for structural html -------------- */
 
 
-/* ---------------- Image Styles ---------------- */
-.bg-image {
-    background-image: url(/images/the-sleep-co-2.jpg);
-    background-size: cover;
-    min-height: 10rem;
-}
-
-.landscape { padding-bottom: 65%;  }
-.portrait  { padding-bottom: 125%; }
-.square    { padding-bottom: 100%; }
-
 /* Universal Styles and Utility Classes */
 
 body {
@@ -122,33 +111,10 @@ p, ul {
     margin: 2px;
   }
 
-.quote-icon {
-    font-size: 6rem;
-    display: inline-block;
-    color: #7f88af;
-    line-height: 1;
-}
-
 .font-weight-light       { font-weight:200;  }
 .font-weight-normal      { font-weight: 400; }
 .font-weight-bold        { font-weight: 500; }
 .font-weight-extra-bold  { font-weight: 800; }
-
-h2 {
-    font-size: 2.5rem;
-    line-height: 1.1;
-    margin-bottom: 1rem;
-}
-
-h3{
-    line-height: 1;
-}
-
-p{
-    font-weight: 200;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-}
 
 /* this makes sure that the last element in any container doesn't have margin-bottom */
 h2:last-child,
@@ -160,11 +126,18 @@ p:last-child {
 margin-bottom:0;
 }
 
-hr { /* this is a line element */
+/* this is a line element */
+hr { 
 border: none;
 border-bottom: 3px solid;
 width: 4rem;
 margin-bottom: 1rem;
+}
+
+p{
+    font-weight: 200;
+    line-height: 1.5;
+    margin-bottom: 1rem;
 }
 
 a{
@@ -177,6 +150,17 @@ a{
 a:hover{
     color:#7f88af;
 }
+
+/* ---------------- Image Styles ---------------- */
+.bg-image {
+    background-image: url(/images/the-sleep-co-2.jpg);
+    background-size: cover;
+    min-height: 10rem;
+}
+
+.landscape { padding-bottom: 65%;  }
+.portrait  { padding-bottom: 125%; }
+.square    { padding-bottom: 100%; }
 
 /* ------------------------------- Header Styles ---------------------------- */
 
@@ -228,26 +212,27 @@ header h1 {
 }
 .bg-bed-foot {
     background-image: url('/images/the-sleep-co-7.jpg');
+    background-position: 50% 75%;
 }
 
 .bg-rust-sheets {
     background-image: url('/images/the-sleep-co-8.jpg');
-    background-position: 50% 50%;
+    background-position: 50% 70%;
 }
 
 .bg-grey-cat {
     background-image: url('/images/the-sleep-co-9.jpg');
-    background-position: 50% 75%;
+    background-position: 50% 35%;
 }
 
 .bg-coffee-book {
     background-image: url('/images/the-sleep-co-10.jpg');
-    background-position: 50% 40%;
+    background-position: 50% 55%;
 }
 
 .bg-face {
     background-image: url('/images/the-sleep-co-11.jpg');
-    background-position: 50% 50%;
+    background-position: 20% 30%;
 }
 .bg-pink-feet {
     background-image: url('/images/the-sleep-co-12.jpg');
@@ -255,17 +240,17 @@ header h1 {
 
 .bg-dog {
     background-image: url('/images/the-sleep-co-13.jpg');
-    background-position: 50% 50%;
+    background-position: 50% 15%;
 }
 
 .bg-pillows {
     background-image: url('/images/the-sleep-co-14.jpg');
-    background-position: 50% 75%;
+    background-position: 50% 45%;
 }
 
 .bg-tiny-dog {
     background-image: url('/images/the-sleep-co-15.jpg');
-    background-position: 50% 40%;
+    background-position: 50% 70%;
 }
 
 .bg-yellow-pillow {
@@ -281,7 +266,7 @@ header h1 {
     background-position: 50% 50%;
 }
 
-/* ----------------------- Icon Grid------------------ */
+/* ----------------------- Font Aweseom Icon Grid ------------------ */
 
 .fas {
     display: block;
@@ -296,4 +281,39 @@ input,
 textarea {
     width: 100%;
     display: block;
+    margin-bottom: 0.3rem;
+    padding: 0.5rem;
+    font-family: inherit;
+    font-size: 0.9rem;
+    border: 2px xolid transparent;
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid #8aa8b5;
+}
+
+.button {
+    padding: 0.5rem 2rem;
+    background-color: #8aa8b5;
+    appearance: none;
+    border: 2px solid #8aa8b5;
+    color:#383e59;
+}
+
+.button:hover {
+    background-color: #383e59;
+    appearance: none;
+    border: 2px solid #8aa8b5;
+    color:#8aa8b5;
+}
+
+/*------------------------------------ Testimonials Section ---------------------------- */
+
+.quote-icon {
+    font-size: 6rem;
+    display: inline-block;
+    color: #7f88af;
+    line-height: 1;
 }
